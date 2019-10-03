@@ -12,9 +12,16 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   
-  
-   <build>
-
+  <dependencies>
+	  <dependency>
+		  <groupId>org.kie.modules</groupId>
+		  <artifactId>org-apache-commons-lang3</artifactId>
+		  <version>6.5.0.Final</version>
+		  <type>pom</type>
+		   
+	   </dependency>
+   </dependencies>
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
