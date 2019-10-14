@@ -43,4 +43,8 @@ to look for dependancies use maven centeral repository. search.maven.org
 if you need to use a dependency its not enough to just put it in the java code as an import.
 you must also put the dependency code for the particular dependency into the pom file.
 
+
+to get a dependency list use mvn dependency:tree
+to see a report of the tests go into surefire-reports and open the txt file
+
 Other info:

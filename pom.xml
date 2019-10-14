@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programming</groupId>
   <artifactId>maven-quick-start</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
@@ -17,9 +17,14 @@
 		  <groupId>org.kie.modules</groupId>
 		  <artifactId>org-apache-commons-lang3</artifactId>
 		  <version>6.5.0.Final</version>
-		  <type>pom</type>
-		   
+		  <type>pom</type>   
 	   </dependency>
+	   <dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.12</version>
+		  <scope>test</scope>
+		</dependency>
    </dependencies>
   <build>
     <plugins>
